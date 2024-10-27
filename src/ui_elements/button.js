@@ -2,7 +2,7 @@
 <button color="default/red/blue" typ="submit / button(default)" ids="button" disabled="true/false"> Button Text </button>
 */
 
-export default class Button extends HTMLElement {
+export default class CustomButton extends HTMLElement {
     connectedCallback() {
         this.render();
 
