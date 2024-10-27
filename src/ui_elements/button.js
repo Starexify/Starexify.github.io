@@ -1,5 +1,5 @@
 /* Example of usage in HTML:
-<button color="default/red/blue" typ="submit / button(default)" ids="button" disabled="true/false"> Button Text </button>
+<custom-button color="default/red/blue" typ="submit / button(default)" ids="button" disabled="true/false"> Button Text </custom-button>
 */
 
 export default class CustomButton extends HTMLElement {
